@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+}
+
+main, #display, #additionalMenu {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+
+    flex: 0 0 30%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#display {
+    padding: 20px;
+
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+}
+
+#expression {
+    display: flex;
+    gap: 10px;
+}
+
+#numberOne, #numberTwo {
+    font-size: 28px;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#interactionPanel {
+    display: flex;
+    gap: 10px;
+}
+
+#dial {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.numberButton, .operatorButton, .clearButton, .finalButton {
+    padding: 40px;
+
+    font-size: 28px;
+    
+    box-sizing: border-box;
+}
+.zeroButton {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+} 
+
+#operatorPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#finalOperatorPanel {
+    display: flex;
+    gap: 10px;
+}
+
+.numberButton {
+    flex: 0 0 calc((100% - 20px) / 3);
+}
+
+.operatorButton {
+    flex: 1;
+}
+
+.clearButton {
+    flex: 0 0 53%;
+}
+
+.finalButton {
+    flex: 0 0 47%;
+}
