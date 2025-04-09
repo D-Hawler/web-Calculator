@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     <main>
         <div id="display">
             <div id="expression">
-                <div id="numberOne">
-                    <p>0000</p>
-                </div>
+                <div id="numberOne"></div>
                 <div id="operator"></div>
-                <div id="numberTwo">
-                    <p>0000</p>
-                </div>
+                <div id="numberTwo"></div>
             </div>
         </div>
         <div id="interactionPanel">
@@ -35,15 +32,15 @@
                 </div>
             </div>
             <div id="operatorPanel">
-                <button id="dialNumberZero" class="operatorButton">+</button>
-                <button id="dialNumberZero" class="operatorButton">-</button>
-                <button id="dialNumberZero" class="operatorButton">*</button>
-                <button id="dialNumberZero" class="operatorButton">/</button>
+                <button id="operatorPlus" class="operatorButton">+</button>
+                <button id="operatorMinus" class="operatorButton">-</button>
+                <button id="operatorMultiplication" class="operatorButton">x</button>
+                <button id="operatorDivision" class="operatorButton">/</button>
             </div>
         </div>
         <div id="finalOperatorPanel">
-            <button id="dialNumberZero" class="clearButton">clear</button>
-            <button id="dialNumberZero" class="finalButton">=</button>
+            <button id="numberClear" class="clearButton">clear</button>
+            <button id="operatorEvenly" class="finalButton">=</button>
         </div>
     </main>
 </body>

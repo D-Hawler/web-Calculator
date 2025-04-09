@@ -49,6 +49,9 @@ main {
 
     border-bottom: 1px solid rgb(0, 0, 0);
 }
+#operator {
+    font-size: 28px;
+}
 
 #interactionPanel {
     display: flex;
