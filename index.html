@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
+    <script src="./calculator-script/number-button.js" defer></script>
+    <script src="./calculator-script/operator-button.js.js" defer></script>
+    <script src="./calculator-script/equal-button.js" defer></script>
+    <script src="./calculator-script/clean-button.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
@@ -29,6 +32,7 @@
                 <button id="dialNumberNine" class="numberButton">9</button>
                 <div class="zeroButton">
                     <button id="dialNumberZero" class="numberButton">0</button>
+                    <button id ="decimalSeparator" class="numberButton"></button>
                 </div>
             </div>
             <div id="operatorPanel">
@@ -39,8 +43,9 @@
             </div>
         </div>
         <div id="finalOperatorPanel">
-            <button id="numberClear" class="clearButton">clear</button>
-            <button id="operatorEvenly" class="finalButton">=</button>
+            <button id="clearOne" class="operatorButton"></button>
+            <button id="numberClear" class="operatorButton">clear</button>
+            <button id="operatorEvenly" class="operatorButton">=</button>
         </div>
     </main>
 </body>

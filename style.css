@@ -75,6 +75,7 @@ main {
     width: 100%;
 
     display: flex;
+    gap: 10px;
     justify-content: center;
 } 
 
@@ -95,12 +96,4 @@ main {
 
 .operatorButton {
     flex: 1;
-}
-
-.clearButton {
-    flex: 0 0 53%;
-}
-
-.finalButton {
-    flex: 0 0 47%;
 }
