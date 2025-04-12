@@ -7,8 +7,8 @@ operatorEvenly.onclick = () => {
 };
 
 function evenly() {
-    const fun = new Function(`return ${num1 + operantMember + num2};`);
-    num1 = fun();
+    const result = new Function(`return ${num1 + operantMember + num2};`)();
+    num1 = parseFloat(result.toFixed(10));
     
     numberOne.textContent = "";
     operator.textContent = "";

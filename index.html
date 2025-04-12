@@ -12,41 +12,47 @@
 </head>
 <body>
     <main>
-        <div id="display">
-            <div id="expression">
-                <div id="numberOne"></div>
-                <div id="operator"></div>
-                <div id="numberTwo"></div>
-            </div>
-        </div>
-        <div id="interactionPanel">
-            <div id="dial">
-                <button id="dialNumberOne" class="numberButton">1</button>
-                <button id="dialNumberTwo" class="numberButton">2</button>
-                <button id="dialNumberThree" class="numberButton">3</button>
-                <button id="dialNumberFour" class="numberButton">4</button>
-                <button id="dialNumberFive" class="numberButton">5</button>
-                <button id="dialNumberSix" class="numberButton">6</button>
-                <button id="dialNumberSeven" class="numberButton">7</button>
-                <button id="dialNumberEight" class="numberButton">8</button>
-                <button id="dialNumberNine" class="numberButton">9</button>
-                <div class="zeroButton">
-                    <button id="dialNumberZero" class="numberButton">0</button>
-                    <button id ="decimalSeparator" class="numberButton"></button>
+        <section class="main">
+            <div id="display">
+                <div id="expression">
+                    <div id="numberOne"></div>
+                    <div id="operator"></div>
+                    <div id="numberTwo"></div>
                 </div>
             </div>
+            <div id="interactionPanel">
+                <div id="dial">
+                    <button id="dialNumberOne" class="numberButton">1</button>
+                    <button id="dialNumberTwo" class="numberButton">2</button>
+                    <button id="dialNumberThree" class="numberButton">3</button>
+                    <button id="dialNumberFour" class="numberButton">4</button>
+                    <button id="dialNumberFive" class="numberButton">5</button>
+                    <button id="dialNumberSix" class="numberButton">6</button>
+                    <button id="dialNumberSeven" class="numberButton">7</button>
+                    <button id="dialNumberEight" class="numberButton">8</button>
+                    <button id="dialNumberNine" class="numberButton">9</button>
+                    <div class="zeroButton">
+                        <button id="dialNumberZero" class="numberButton">0</button>
+                        <button id ="decimalSeparator" class="numberButton">.</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="finalOperatorPanel">
             <div id="operatorPanel">
                 <button id="operatorPlus" class="operatorButton">+</button>
                 <button id="operatorMinus" class="operatorButton">-</button>
                 <button id="operatorMultiplication" class="operatorButton">x</button>
                 <button id="operatorDivision" class="operatorButton">/</button>
             </div>
-        </div>
-        <div id="finalOperatorPanel">
-            <button id="clearOne" class="operatorButton"></button>
-            <button id="numberClear" class="operatorButton">clear</button>
-            <button id="operatorEvenly" class="operatorButton">=</button>
-        </div>
+            <div id="operatorPanel">
+                <button id="operatorEvenly" class="evenlyButton">=</button>
+            </div>
+            <div id="clearOperatorPanel">
+                <button id="clearOne" class="operatorButton">⌫</button>
+                <button id="numberClear" class="operatorButton">С</button>
+            </div>
+        </section>
     </main>
 </body>
 </html>

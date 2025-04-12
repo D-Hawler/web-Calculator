@@ -67,10 +67,10 @@ dialNumberZero.onclick = () => {
 
 const decimalSeparator = document.getElementById("decimalSeparator");
 decimalSeparator.onclick = () => {
-    if (num2 !== "") {
+    if (num2 !== "" && num2.indexOf(".") === -1) {
         num2 += ".";
         isNumberAddition();
-    }
+    };
 };
 
 function isNumberAddition() {
